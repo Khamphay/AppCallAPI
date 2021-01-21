@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXSpinner?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollBar?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="686.0" prefWidth="1020.0" stylesheets="@style/projectStyle.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.appcallapi.Controller.HomeController">
+   <children>
+      <AnchorPane layoutX="63.0" layoutY="394.0" prefHeight="223.0" prefWidth="523.0" style="-fx-background-color: #FFF; -fx-background-radius: 5px 5px 5px 5px;">
+         <children>
+            <JFXSpinner layoutX="36.0" layoutY="75.0" prefHeight="103.0" prefWidth="104.0" progress="0.98" startingAngle="0.0" style="-fx-background-color: #0000;" />
+            <JFXSpinner layoutX="203.0" layoutY="75.0" prefHeight="103.0" prefWidth="104.0" progress="0.55" style="-fx-background-color: #0000;" />
+            <Label alignment="CENTER" layoutX="7.0" layoutY="9.0" prefHeight="42.0" prefWidth="162.0" text="Analysis Complete" textFill="#5355df">
+               <font>
+                  <Font name="BoonBaan Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="187.0" layoutY="9.0" prefHeight="42.0" prefWidth="135.0" text="Design Complete" textFill="#5355df">
+               <font>
+                  <Font name="BoonBaan Bold" size="16.0" />
+               </font>
+            </Label>
+            <JFXSpinner layoutX="364.0" layoutY="75.0" prefHeight="103.0" prefWidth="104.0" progress="0.33" style="-fx-background-color: #0000;" />
+            <Label alignment="CENTER" layoutX="346.0" layoutY="9.0" prefHeight="42.0" prefWidth="140.0" text="Coding Complete" textFill="#5355df">
+               <font>
+                  <Font name="BoonBaan Bold" size="16.0" />
+               </font>
+            </Label>
+         </children>
+         <effect>
+            <DropShadow color="#5411c6" height="18.03" offsetX="1.0" offsetY="1.0" radius="8.515" width="18.03" />
+         </effect>
+      </AnchorPane>
+      <AnchorPane layoutX="63.0" layoutY="54.0" prefHeight="283.0" prefWidth="894.0" style="-fx-background-color: #FFF; -fx-background-radius: 5px 5px 5px 5px;">
+         <effect>
+            <DropShadow color="#5411c6" height="18.03" offsetX="1.0" offsetY="1.0" radius="8.515" width="18.03" />
+         </effect>
+         <children>
+            <ImageView fitHeight="239.0" fitWidth="522.0" layoutX="14.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@icon/44qspump.png" />
+               </image>
+            </ImageView>
+            <VBox layoutX="492.0" layoutY="22.0" prefHeight="239.0" prefWidth="379.0">
+               <children>
+                  <Label alignment="CENTER" prefHeight="38.0" prefWidth="126.0" text="Show Detail" textFill="#5355df">
+                     <font>
+                        <Font name="BoonBaan Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Separator prefWidth="200.0" />
+                  <HBox alignment="CENTER_LEFT" prefHeight="35.0" prefWidth="259.0">
+                     <children>
+                        <Label alignment="CENTER" prefHeight="35.0" prefWidth="98.0" text="Jan 16 2021" textFill="#5355df">
+                           <font>
+                              <Font name="BoonBaan Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="35.0" prefWidth="98.0" text="706.00" textFill="#5355df">
+                           <font>
+                              <Font name="BoonBaan Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="35.0" prefWidth="98.0" text="20.80%" textFill="#5355df">
+                           <font>
+                              <Font name="BoonBaan Bold" size="14.0" />
+                           </font>
+                           <graphic>
+                              <ImageView fitHeight="25.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@icon/up_50px.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Label>
+                        <Pane prefHeight="33.0" prefWidth="59.0">
+                           <children>
+                              <ImageView fitHeight="22.0" fitWidth="27.0" layoutX="34.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@icon/menu_vertical_50px.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="35.0" prefWidth="259.0">
+                     <children>
+                        <Label alignment="CENTER" prefHeight="35.0" prefWidth="98.0" text="Jan 17 2021" textFill="#5355df">
+                           <font>
+                              <Font name="BoonBaan Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="35.0" prefWidth="98.0" text="726.00" textFill="#5355df">
+                           <font>
+                              <Font name="BoonBaan Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="35.0" prefWidth="98.0" text="22.30%" textFill="#5355df">
+                           <font>
+                              <Font name="BoonBaan Bold" size="14.0" />
+                           </font>
+                           <graphic>
+                              <ImageView fitHeight="25.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@icon/up_50px.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Label>
+                        <Pane prefHeight="33.0" prefWidth="59.0">
+                           <children>
+                              <ImageView fitHeight="22.0" fitWidth="27.0" layoutX="34.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@icon/menu_vertical_50px.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="35.0" prefWidth="259.0">
+                     <children>
+                        <Label alignment="CENTER" prefHeight="35.0" prefWidth="98.0" text="Jan 18 2021" textFill="#5355df">
+                           <font>
+                              <Font name="BoonBaan Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="35.0" prefWidth="98.0" text="713.00" textFill="#5355df">
+                           <font>
+                              <Font name="BoonBaan Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="35.0" prefWidth="98.0" text="10.30%" textFill="#5355df">
+                           <font>
+                              <Font name="BoonBaan Bold" size="14.0" />
+                           </font>
+                           <graphic>
+                              <ImageView fitHeight="25.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@icon/down_50px.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Label>
+                        <Pane prefHeight="33.0" prefWidth="59.0">
+                           <children>
+                              <ImageView fitHeight="22.0" fitWidth="27.0" layoutX="34.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@icon/menu_vertical_50px.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="35.0" prefWidth="259.0">
+                     <children>
+                        <Label alignment="CENTER" prefHeight="35.0" prefWidth="98.0" text="Jan 19 2021" textFill="#5355df">
+                           <font>
+                              <Font name="BoonBaan Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="35.0" prefWidth="98.0" text="700.00" textFill="#5355df">
+                           <font>
+                              <Font name="BoonBaan Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="35.0" prefWidth="98.0" text="  4.04%" textFill="#5355df">
+                           <font>
+                              <Font name="BoonBaan Bold" size="14.0" />
+                           </font>
+                           <graphic>
+                              <ImageView fitHeight="25.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@icon/down_50px.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Label>
+                        <Pane prefHeight="33.0" prefWidth="59.0">
+                           <children>
+                              <ImageView fitHeight="22.0" fitWidth="27.0" layoutX="34.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@icon/menu_vertical_50px.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="35.0" prefWidth="259.0">
+                     <children>
+                        <Label alignment="CENTER" prefHeight="35.0" prefWidth="98.0" text="Jan 20 2021" textFill="#5355df">
+                           <font>
+                              <Font name="BoonBaan Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="35.0" prefWidth="98.0" text="735.00" textFill="#5355df">
+                           <font>
+                              <Font name="BoonBaan Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="35.0" prefWidth="98.0" text="25.02%" textFill="#5355df">
+                           <font>
+                              <Font name="BoonBaan Bold" size="14.0" />
+                           </font>
+                           <graphic>
+                              <ImageView fitHeight="25.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@icon/up_50px.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Label>
+                        <Pane prefHeight="33.0" prefWidth="59.0">
+                           <children>
+                              <ImageView fitHeight="22.0" fitWidth="27.0" layoutX="34.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@icon/menu_vertical_50px.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="35.0" prefWidth="259.0">
+                     <children>
+                        <Label alignment="CENTER" prefHeight="35.0" prefWidth="98.0" text="Jan 21 2021" textFill="#5355df">
+                           <font>
+                              <Font name="BoonBaan Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="35.0" prefWidth="98.0" text="752.00" textFill="#5355df">
+                           <font>
+                              <Font name="BoonBaan Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="35.0" prefWidth="98.0" text="31.50%" textFill="#5355df">
+                           <font>
+                              <Font name="BoonBaan Bold" size="14.0" />
+                           </font>
+                           <graphic>
+                              <ImageView fitHeight="25.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@icon/up_50px.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Label>
+                        <Pane prefHeight="33.0" prefWidth="59.0">
+                           <children>
+                              <ImageView fitHeight="22.0" fitWidth="27.0" layoutX="34.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@icon/menu_vertical_50px.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <ScrollBar layoutX="857.0" layoutY="59.0" max="10.0" orientation="VERTICAL" prefHeight="194.0" prefWidth="14.0" value="10.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="601.0" layoutY="394.0" prefHeight="223.0" prefWidth="355.0" style="-fx-background-color: #FFF; -fx-background-radius: 5px 5px 5px 5px;">
+         <effect>
+            <DropShadow color="#5411c6" height="18.03" offsetX="1.0" offsetY="1.0" radius="8.515" width="18.03" />
+         </effect>
+         <children>
+            <Label alignment="CENTER" layoutX="14.0" layoutY="8.0" prefHeight="42.0" prefWidth="324.0" text="Time Line Of Process" textFill="#5355df">
+               <font>
+                  <Font name="BoonBaan Bold" size="30.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER_RIGHT" layoutX="38.0" layoutY="87.0" prefHeight="33.0" prefWidth="38.0" text="Team" textFill="#5355df">
+               <font>
+                  <Font name="BoonBaan Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER_RIGHT" layoutX="17.0" layoutY="138.0" prefHeight="33.0" prefWidth="57.0" text="Analysis" textFill="#5355df">
+               <font>
+                  <Font name="BoonBaan Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER_RIGHT" layoutX="31.0" layoutY="182.0" prefHeight="33.0" prefWidth="50.0" text="Coding" textFill="#5355df">
+               <font>
+                  <Font name="BoonBaan Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="251.0" layoutY="60.0" prefHeight="33.0" prefWidth="72.0" text="Testing" textFill="#5355df">
+               <font>
+                  <Font name="BoonBaan Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="259.0" layoutY="95.0" prefHeight="33.0" prefWidth="72.0" text="Delivery" textFill="#5355df">
+               <font>
+                  <Font name="BoonBaan Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="259.0" layoutY="165.0" prefHeight="33.0" prefWidth="78.0" text="Maintenance" textFill="#5355df">
+               <font>
+                  <Font name="BoonBaan Bold" size="12.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="160.0" fitWidth="182.0" layoutX="71.0" layoutY="62.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@icon/flutter-pie-chart-explode-on-touch.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

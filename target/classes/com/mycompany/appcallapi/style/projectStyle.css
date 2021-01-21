@@ -1,0 +1,94 @@
+
+.font{
+    -fx-font-family: 'BoonBaan';
+}
+
+.font-bold{
+     -fx-font-weight: bold;
+}
+
+.font-color-black{
+    -fx-text-fill: #000;
+}
+
+.font-color-white{
+    -fx-text-fill: #FFF;
+}
+.font-color-blue{
+    -fx-text-fill:#493DF5;
+}
+.font-size-12{
+    -fx-font-size: 12;
+}
+
+.font-size-13{
+    -fx-font-size: 13;
+}
+
+.font-size-14{
+    -fx-font-size: 14;
+}
+
+.font-size-16{
+    -fx-font-size: 16;
+}
+
+.font-size-18{
+    -fx-font-size: 18;
+}
+
+.font-size-20{
+    -fx-font-size: 20;
+}
+
+.font-size-24{
+    -fx-font-size: 24;
+}
+
+.font-size-30{
+    -fx-font-size: 30;
+}
+
+.button-font{
+    -fx-font-family: 'BoonBaan';
+    -fx-font-size: 16;
+    -fx-font-weight: bold;
+}
+
+
+.vbox{
+    -fx-background-color: #E1E1E1;
+}
+
+.hamberger:press{
+    -fx-background-color: #493DF5;
+}
+
+.hamberger:pressed{
+    -fx-background-color: transparent;
+}
+
+.jfx-hamburger {
+    -fx-spacing: 5;
+    -fx-cursor: hand;
+}
+
+.jfx-hamburger StackPane {
+    /* -fx-pref-width: 40px;
+    -fx-pref-height: 7px; */
+    -fx-background-color: #493DF5;
+    -fx-background-radius: 4px;
+}
+
+.scroll-bar:horizontal .track,
+.scroll-bar:vertical .track{
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-background-radius: 0em;
+}
+
+.scroll-bar:horizontal .thumb,
+.scroll-bar:vertical .thumb {
+    -fx-background-color: #5355df;
+    -fx-background-radius: 5em;
+}

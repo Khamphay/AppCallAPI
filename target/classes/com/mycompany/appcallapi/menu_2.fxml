@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="729.0" prefWidth="55.0" styleClass="vbox" stylesheets="@style/projectStyle.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="86.0" prefWidth="55.0" />
+      <JFXButton id="btHome" alignment="CENTER" contentDisplay="CENTER" graphicTextGap="0.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="43.0" prefWidth="55.0" text="Button" textFill="WHITE">
+         <graphic>
+            <ImageView fitHeight="32.0" fitWidth="41.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@icon/male_user_50px.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font size="1.0" />
+         </font>
+      </JFXButton>
+      <JFXButton id="btAccount" alignment="CENTER" contentDisplay="CENTER" graphicTextGap="0.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="43.0" prefWidth="55.0" textFill="WHITE">
+         <graphic>
+            <ImageView fitHeight="32.0" fitWidth="41.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@icon/male_user_50px.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font size="1.0" />
+         </font>
+      </JFXButton>
+      <JFXButton id="btMember" alignment="CENTER" contentDisplay="CENTER" graphicTextGap="0.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="43.0" prefWidth="55.0" textFill="WHITE">
+         <graphic>
+            <ImageView fitHeight="32.0" fitWidth="41.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@icon/male_user_50px.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font size="1.0" />
+         </font>
+      </JFXButton>
+      <JFXButton id="btManage" alignment="CENTER" contentDisplay="CENTER" graphicTextGap="0.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="43.0" prefWidth="55.0" textFill="WHITE">
+         <graphic>
+            <ImageView fitHeight="32.0" fitWidth="41.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@icon/male_user_50px.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font size="1.0" />
+         </font>
+      </JFXButton>
+      <JFXButton id="btProduct" alignment="CENTER" contentDisplay="CENTER" graphicTextGap="0.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="43.0" prefWidth="55.0" textFill="WHITE">
+         <graphic>
+            <ImageView fitHeight="32.0" fitWidth="41.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@icon/male_user_50px.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font size="1.0" />
+         </font>
+      </JFXButton>
+      <JFXButton id="btImport" alignment="CENTER" contentDisplay="CENTER" graphicTextGap="0.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="43.0" prefWidth="55.0" textFill="WHITE">
+         <graphic>
+            <ImageView fitHeight="32.0" fitWidth="41.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@icon/male_user_50px.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font size="1.0" />
+         </font>
+      </JFXButton>
+      <JFXButton id="btSale" alignment="CENTER" contentDisplay="CENTER" graphicTextGap="0.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="43.0" prefWidth="55.0" textFill="WHITE">
+         <graphic>
+            <ImageView fitHeight="32.0" fitWidth="41.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@icon/male_user_50px.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font size="1.0" />
+         </font>
+      </JFXButton>
+      <JFXButton id="btReport" alignment="CENTER" contentDisplay="CENTER" graphicTextGap="0.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="43.0" prefWidth="55.0" textFill="WHITE">
+         <graphic>
+            <ImageView fitHeight="32.0" fitWidth="41.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@icon/male_user_50px.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font size="1.0" />
+         </font>
+      </JFXButton>
+      <JFXButton id="btSetting" alignment="CENTER" contentDisplay="CENTER" graphicTextGap="0.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="43.0" prefWidth="55.0" textFill="WHITE">
+         <graphic>
+            <ImageView fitHeight="32.0" fitWidth="41.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@icon/male_user_50px.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font size="1.0" />
+         </font>
+      </JFXButton>
+   </children>
+</VBox>

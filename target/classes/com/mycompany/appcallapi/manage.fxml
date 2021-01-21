@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="685.0" prefWidth="1027.0" stylesheets="@style/projectStyle.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.appcallapi.Controller.ManageController">
+   <children>
+      <Label layoutX="422.0" layoutY="320.0" text="Manager Page" />
+   </children>
+   <styleClass>
+      <String fx:value="font-color-black" />
+      <String fx:value="font-size-30" />
+   </styleClass>
+</AnchorPane>

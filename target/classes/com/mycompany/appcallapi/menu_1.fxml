@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import java.lang.String?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="729.0" prefWidth="230.0" styleClass="vbox" stylesheets="@style/projectStyle.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.appcallapi.Controller.Menu1Controller">
+   <children>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="86.0" prefWidth="230.0">
+         <children>
+            <Label layoutX="63.0" layoutY="21.0" text="PK">
+               <styleClass>
+                  <String fx:value="font-size-30" />
+                  <String fx:value="font-color-black" />
+                  <String fx:value="font-bold" />
+               </styleClass>
+            </Label>
+            <Label layoutX="109.0" layoutY="21.0" text="DEV">
+               <styleClass>
+                  <String fx:value="font-size-30" />
+                  <String fx:value="font-bold" />
+                  <String fx:value="font-color-blue" />
+               </styleClass>
+            </Label>
+         </children>
+      </AnchorPane>
+      <JFXButton id="btHome" fx:id="buttonHome" alignment="BASELINE_LEFT" graphicTextGap="20.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" onAction="#showHomePage" prefHeight="43.0" prefWidth="230.0" text="Home" textFill="WHITE">
+         <graphic>
+            <ImageView fitHeight="32.0" fitWidth="41.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@icon/male_user_50px.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <styleClass>
+            <String fx:value="button-font" />
+            <String fx:value="font-color-blue" />
+         </styleClass>
+      </JFXButton>
+      <JFXButton id="btAccount" alignment="BASELINE_LEFT" graphicTextGap="20.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="43.0" prefWidth="230.0" text="Account" textFill="WHITE">
+         <graphic>
+            <ImageView fitHeight="32.0" fitWidth="41.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@icon/male_user_50px.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <styleClass>
+            <String fx:value="button-font" />
+            <String fx:value="font-color-blue" />
+         </styleClass>
+      </JFXButton>
+      <JFXButton id="btMember" alignment="BASELINE_LEFT" graphicTextGap="20.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="43.0" prefWidth="230.0" text="Member" textFill="WHITE">
+         <graphic>
+            <ImageView fitHeight="32.0" fitWidth="41.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@icon/male_user_50px.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <styleClass>
+            <String fx:value="button-font" />
+            <String fx:value="font-color-blue" />
+         </styleClass>
+      </JFXButton>
+      <JFXButton id="btManage" alignment="BASELINE_LEFT" graphicTextGap="20.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="43.0" prefWidth="230.0" text="Manage" textFill="WHITE">
+         <graphic>
+            <ImageView fitHeight="32.0" fitWidth="41.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@icon/male_user_50px.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <styleClass>
+            <String fx:value="button-font" />
+            <String fx:value="font-color-blue" />
+         </styleClass>
+      </JFXButton>
+      <JFXButton id="btProduct" alignment="BASELINE_LEFT" graphicTextGap="20.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="43.0" prefWidth="230.0" text="Product" textFill="WHITE">
+         <graphic>
+            <ImageView fitHeight="32.0" fitWidth="41.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@icon/male_user_50px.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <styleClass>
+            <String fx:value="button-font" />
+            <String fx:value="font-color-blue" />
+         </styleClass>
+      </JFXButton>
+      <JFXButton id="btImport" alignment="BASELINE_LEFT" graphicTextGap="20.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="43.0" prefWidth="230.0" text="Import" textFill="WHITE">
+         <graphic>
+            <ImageView fitHeight="32.0" fitWidth="41.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@icon/male_user_50px.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <styleClass>
+            <String fx:value="button-font" />
+            <String fx:value="font-color-blue" />
+         </styleClass>
+      </JFXButton>
+      <JFXButton id="btSale" alignment="BASELINE_LEFT" graphicTextGap="20.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="43.0" prefWidth="230.0" text="Sale" textFill="WHITE">
+         <graphic>
+            <ImageView fitHeight="32.0" fitWidth="41.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@icon/male_user_50px.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <styleClass>
+            <String fx:value="button-font" />
+            <String fx:value="font-color-blue" />
+         </styleClass>
+      </JFXButton>
+      <JFXButton id="btReport" alignment="BASELINE_LEFT" graphicTextGap="20.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="43.0" prefWidth="230.0" text="Report" textFill="WHITE">
+         <graphic>
+            <ImageView fitHeight="32.0" fitWidth="41.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@icon/male_user_50px.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <styleClass>
+            <String fx:value="button-font" />
+            <String fx:value="font-color-blue" />
+         </styleClass>
+      </JFXButton>
+      <JFXButton id="btSetting" alignment="BASELINE_LEFT" graphicTextGap="20.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="43.0" prefWidth="230.0" text="Setting" textFill="WHITE">
+         <graphic>
+            <ImageView fitHeight="32.0" fitWidth="41.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@icon/male_user_50px.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <styleClass>
+            <String fx:value="button-font" />
+            <String fx:value="font-color-blue" />
+         </styleClass>
+      </JFXButton>
+   </children>
+</VBox>
