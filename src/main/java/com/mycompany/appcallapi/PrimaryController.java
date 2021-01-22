@@ -75,7 +75,7 @@ public class PrimaryController implements Initializable {
                 }
             });
 
-            node.lookup("#btAccount").setOnMouseClicked(new EventHandler<Event>() {
+            node.lookup("#btCovid19").setOnMouseClicked(new EventHandler<Event>() {
 
                 @Override
                 public void handle(Event event) {

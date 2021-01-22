@@ -22,7 +22,7 @@
             <Font size="1.0" />
          </font>
       </JFXButton>
-      <JFXButton id="btAccount" alignment="CENTER" contentDisplay="CENTER" graphicTextGap="0.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="43.0" prefWidth="55.0" textFill="WHITE">
+      <JFXButton id="btCovid19" alignment="CENTER" contentDisplay="CENTER" graphicTextGap="0.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="43.0" prefWidth="55.0" textFill="WHITE">
          <graphic>
             <ImageView fitHeight="32.0" fitWidth="41.0" pickOnBounds="true" preserveRatio="true">
                <image>

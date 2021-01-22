@@ -8,8 +8,21 @@ public class CaseOfCovid19 {
             population,oneCasePerPeople,oneDeathPerPeople,
             oneTestPerPeople, activePerOneMillion, 
             recoveredPerOneMillion, criticalPerOneMillion, affectedCountries;
+    private String country;
 
     public CaseOfCovid19() {
+    }
+
+    public CaseOfCovid19(String updated, String country,String cases, String todayCases, String deaths, String todayDeaths,
+            String recovered, String todayRecovered) {
+        this.updated = updated;
+        this.country = country;
+        this.cases = cases;
+        this.todayCases = todayCases;
+        this.deaths = deaths;
+        this.todayDeaths = todayDeaths;
+        this.recovered = recovered;
+        this.todayRecovered = todayRecovered;
     }
 
     public CaseOfCovid19(String updated, String cases, String todayCases, String deaths, String todayDeaths,
@@ -208,7 +221,11 @@ public class CaseOfCovid19 {
         this.affectedCountries = affectedCountries;
     }
 
+    public String getCountry() {
+        return country;
+    }
 
-
-            
+    public void setCountry(String country) {
+        this.country = country;
+    }
 }

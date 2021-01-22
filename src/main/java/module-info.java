@@ -12,5 +12,4 @@ module com.mycompany.appcallapi {
     
     opens com.mycompany.appcallapi.Controller to javafx.fxml;
     exports com.mycompany.appcallapi.Controller;
-    
 }

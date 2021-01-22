@@ -2,9 +2,10 @@ D:\AppCallAPI\src\main\java\module-info.java
 D:\AppCallAPI\src\main\java\com\mycompany\appcallapi\FakeApp.java
 D:\AppCallAPI\src\main\java\com\mycompany\appcallapi\App.java
 D:\AppCallAPI\src\main\java\com\mycompany\appcallapi\Controller\Menu1Controller.java
-D:\AppCallAPI\src\main\java\com\mycompany\appcallapi\model\Covid19_API.java
 D:\AppCallAPI\src\main\java\com\mycompany\appcallapi\Controller\MemberController.java
+D:\AppCallAPI\src\main\java\com\mycompany\appcallapi\model\Covid19_API_Connector.java
 D:\AppCallAPI\src\main\java\com\mycompany\appcallapi\Controller\AccountController.java
+D:\AppCallAPI\src\main\java\com\mycompany\appcallapi\DAOModel\CaseOfCovid19.java
 D:\AppCallAPI\src\main\java\com\mycompany\appcallapi\LoginController.java
 D:\AppCallAPI\src\main\java\com\mycompany\appcallapi\Controller\ProductController.java
 D:\AppCallAPI\src\main\java\com\mycompany\appcallapi\Controller\HomeController.java
