@@ -18,13 +18,19 @@ import javafx.scene.Parent;
 import javafx.scene.control.ScrollPane;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.BorderPane;
+import javafx.scene.text.Text;
 
 public class PrimaryController implements Initializable {
 
+    private Thread t2 = new Thread(new checkConnection(), "t2");
+    public static String networkStats = "";
     private boolean fragMenu = false;
     private Parent rootMenu = null;
     private HamburgerSlideCloseTransition hamberger_transition = null;
     private Node node;
+
+    @FXML
+    private Text tvStatus;
 
     @FXML
     private BorderPane borderpane_Main;
@@ -64,18 +70,18 @@ public class PrimaryController implements Initializable {
                 borderpane_Main.setLeft(node);
                 fragMenu = true;
             }
-            
-            //! Start set event to any button in node
-            
+
+            // ! Start set event to any button in node
+
             node.lookup("#btHome").setOnMouseClicked(new EventHandler<Event>() {
 
                 @Override
                 public void handle(Event event) {
-                   subForm("home.fxml");
+                    subForm("home.fxml");
                 }
             });
 
-            node.lookup("#btAccount").setOnMouseClicked(new EventHandler<Event>() {
+            node.lookup("#btCovid19").setOnMouseClicked(new EventHandler<Event>() {
 
                 @Override
                 public void handle(Event event) {
@@ -103,7 +109,7 @@ public class PrimaryController implements Initializable {
 
                 @Override
                 public void handle(Event event) {
-                   subForm("product.fxml");
+                    subForm("product.fxml");
                 }
             });
 
@@ -111,15 +117,15 @@ public class PrimaryController implements Initializable {
 
                 @Override
                 public void handle(Event event) {
-                   subForm("import.fxml");
+                    subForm("import.fxml");
                 }
             });
-            
+
             node.lookup("#btSale").setOnMouseClicked(new EventHandler<Event>() {
 
                 @Override
                 public void handle(Event event) {
-                   subForm("sale.fxml");
+                    subForm("sale.fxml");
                 }
             });
 
@@ -139,12 +145,13 @@ public class PrimaryController implements Initializable {
                 }
             });
 
-            //!End
+            // !End
 
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
+
     public void subForm(String fxml) {
         try {
             borderpane_Main.setCenter(loadFXML(fxml));
@@ -163,8 +170,6 @@ public class PrimaryController implements Initializable {
         }
     }
 
-   
-    
     private void sliderHamberger() {
         // Todo: hamberger translate
         hamberger_transition = new HamburgerSlideCloseTransition(hamb_slide_menu);
@@ -179,14 +184,31 @@ public class PrimaryController implements Initializable {
     @FXML
     private void openMenu(ActionEvent event) throws IOException {
         // Todo: Show or hide menu
-        //sliderHamberger();
+        // sliderHamberger();
     }
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        //show_menuAll();
+        // show_menuAll();
         sliderHamberger();
         show_menu();
-    
+        tvStatus.setText(networkStats);
+        t2.start();
+    }
+
+    // Todo: use Thrad for refresh data
+    class checkConnection implements Runnable {
+        @Override
+        public void run() {
+            while (true) {
+                try {
+                    Thread.sleep(5000);
+                    tvStatus.setText(networkStats);
+                } catch (InterruptedException e) {
+                    // TODO Auto-generated catch block
+                    e.printStackTrace();
+                }
+            }
+        }
     }
 }

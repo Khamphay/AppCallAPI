@@ -68,6 +68,12 @@
                </styleClass>
             </Text>
             <JFXHamburger fx:id="hamb_slide_menu" alignment="CENTER_LEFT" layoutX="14.0" layoutY="8.0" prefHeight="29.0" prefWidth="91.0" styleClass="hamberger" stylesheets="@style/projectStyle.css" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="8.0" />
+            <Text fx:id="tvStatus" fill="#3506dd" layoutX="723.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" AnchorPane.rightAnchor="554.0">
+               <styleClass>
+                  <String fx:value="font" />
+                  <String fx:value="font-size-16" />
+               </styleClass>
+            </Text>
          </children>
          <cursor>
             <Cursor fx:constant="DEFAULT" />

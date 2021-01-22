@@ -41,7 +41,7 @@
             <String fx:value="font-color-blue" />
          </styleClass>
       </JFXButton>
-      <JFXButton id="btAccount" alignment="BASELINE_LEFT" graphicTextGap="20.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="43.0" prefWidth="230.0" text="Account" textFill="WHITE">
+      <JFXButton id="btCovid19" alignment="BASELINE_LEFT" graphicTextGap="20.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="43.0" prefWidth="230.0" text="Covid 19" textFill="WHITE">
          <graphic>
             <ImageView fitHeight="32.0" fitWidth="41.0" pickOnBounds="true" preserveRatio="true">
                <image>
@@ -54,7 +54,7 @@
             <String fx:value="font-color-blue" />
          </styleClass>
       </JFXButton>
-      <JFXButton id="btMember" alignment="BASELINE_LEFT" graphicTextGap="20.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="43.0" prefWidth="230.0" text="Member" textFill="WHITE">
+      <JFXButton id="btMember" alignment="BASELINE_LEFT" graphicTextGap="20.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="43.0" prefWidth="230.0" text="Time Line Covid 19" textFill="WHITE">
          <graphic>
             <ImageView fitHeight="32.0" fitWidth="41.0" pickOnBounds="true" preserveRatio="true">
                <image>

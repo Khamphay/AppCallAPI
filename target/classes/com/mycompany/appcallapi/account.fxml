@@ -2,84 +2,409 @@
 
 <?import java.lang.String?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
 
-<AnchorPane prefHeight="685.0" prefWidth="1027.0" stylesheets="@style/projectStyle.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.appcallapi.Controller.AccountController">
+<AnchorPane prefHeight="868.0" prefWidth="1418.0" styleClass="font-color-black" stylesheets="@style/projectStyle.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.appcallapi.Controller.AccountController">
    <children>
-      <Label layoutX="68.0" layoutY="86.0" text="Total Case">
+      <ScrollPane layoutX="14.0" layoutY="74.0" prefHeight="600.0" prefWidth="1392.0" AnchorPane.bottomAnchor="11.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="12.0" AnchorPane.topAnchor="74.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="776.0" prefWidth="1387.0">
+               <children>
+                  <AnchorPane layoutX="45.0" layoutY="25.0" prefHeight="159.0" prefWidth="313.0" style="-fx-background-color: #FFF; -fx-background-radius: 5px 5px 5px 5px;">
+                     <effect>
+                        <DropShadow color="#5411c6" height="18.03" offsetX="1.0" offsetY="1.0" radius="8.515" width="18.03" />
+                     </effect>
+                     <children>
+                        <ImageView fitHeight="54.0" fitWidth="55.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@icon/people_120px.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="70.0" layoutY="19.0" text="ຈຳນວນຜູ້ຕິດເຊື້ອທົວໂລກ">
+                           <styleClass>
+                              <String fx:value="font" />
+                              <String fx:value="font-bold" />
+                              <String fx:value="font-size-20" />
+                              <String fx:value="font-color-blue" />
+                           </styleClass>
+                        </Label>
+                        <ImageView fitHeight="45.0" fitWidth="33.0" layoutX="11.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@icon/coronavirus_120px.png" />
+                           </image>
+                        </ImageView>
+                        <Text fx:id="totalCases" fill="#493df5" layoutX="70.0" layoutY="86.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0000">
+                           <styleClass>
+                              <String fx:value="font" />
+                              <String fx:value="font-bold" />
+                              <String fx:value="font-color-blue" />
+                              <String fx:value="font-size-20" />
+                           </styleClass>
+                        </Text>
+                        <Text fx:id="perSentOfAllPeople" fill="#493df5" layoutX="36.0" layoutY="126.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0000">
+                           <styleClass>
+                              <String fx:value="font" />
+                              <String fx:value="font-bold" />
+                              <String fx:value="font-color-blue" />
+                              <String fx:value="font-size-16" />
+                           </styleClass>
+                        </Text>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="487.0" layoutY="19.0" prefHeight="159.0" prefWidth="313.0" style="-fx-background-color: #FFF; -fx-background-radius: 5px 5px 5px 5px;">
+                     <effect>
+                        <DropShadow color="#5411c6" height="18.03" offsetX="1.0" offsetY="1.0" radius="8.515" width="18.03" />
+                     </effect>
+                     <children>
+                        <ImageView fitHeight="54.0" fitWidth="55.0" layoutX="7.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@icon/hospital_bed_100px.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="73.0" layoutY="21.0" text="ຈຳນວນຜູ້ຕິດເຊື້ອທົ່ວໂລກໃນມື້ນີ້">
+                           <styleClass>
+                              <String fx:value="font" />
+                              <String fx:value="font-bold" />
+                              <String fx:value="font-size-20" />
+                              <String fx:value="font-color-blue" />
+                           </styleClass>
+                        </Label>
+                        <Text fx:id="todayCases" fill="#493df5" layoutX="68.0" layoutY="83.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0000">
+                           <styleClass>
+                              <String fx:value="font" />
+                              <String fx:value="font-bold" />
+                              <String fx:value="font-color-blue" />
+                              <String fx:value="font-size-20" />
+                           </styleClass>
+                        </Text>
+                        <Text fx:id="todayCase_PerDay" fill="#493df5" layoutX="34.0" layoutY="123.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0000">
+                           <styleClass>
+                              <String fx:value="font" />
+                              <String fx:value="font-bold" />
+                              <String fx:value="font-color-blue" />
+                              <String fx:value="font-size-16" />
+                           </styleClass>
+                        </Text>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="45.0" layoutY="214.0" prefHeight="159.0" prefWidth="313.0" style="-fx-background-color: #FFF; -fx-background-radius: 5px 5px 5px 5px;">
+                     <effect>
+                        <DropShadow color="#5411c6" height="18.03" offsetX="1.0" offsetY="1.0" radius="8.515" width="18.03" />
+                     </effect>
+                     <children>
+                        <ImageView fitHeight="54.0" fitWidth="55.0" layoutX="7.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@icon/dead_50px.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="68.0" layoutY="21.0" text="ຈຳນວນຜູ້ເສຍຊີວິດທົ່ວໂລກ">
+                           <styleClass>
+                              <String fx:value="font" />
+                              <String fx:value="font-bold" />
+                              <String fx:value="font-size-20" />
+                              <String fx:value="font-color-blue" />
+                           </styleClass>
+                        </Label>
+                        <Text fx:id="totalDeaths" fill="#493df5" layoutX="68.0" layoutY="83.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0000">
+                           <styleClass>
+                              <String fx:value="font" />
+                              <String fx:value="font-bold" />
+                              <String fx:value="font-color-blue" />
+                              <String fx:value="font-size-20" />
+                           </styleClass>
+                        </Text>
+                        <Text fx:id="DeathperInfective" fill="#493df5" layoutX="34.0" layoutY="123.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0000">
+                           <styleClass>
+                              <String fx:value="font" />
+                              <String fx:value="font-bold" />
+                              <String fx:value="font-color-blue" />
+                              <String fx:value="font-size-16" />
+                           </styleClass>
+                        </Text>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="45.0" layoutY="399.0" prefHeight="159.0" prefWidth="313.0" style="-fx-background-color: #FFF; -fx-background-radius: 5px 5px 5px 5px;">
+                     <effect>
+                        <DropShadow color="#5411c6" height="18.03" offsetX="1.0" offsetY="1.0" radius="8.515" width="18.03" />
+                     </effect>
+                     <children>
+                        <ImageView fitHeight="54.0" fitWidth="55.0" layoutX="7.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@icon/heart_64px.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="73.0" layoutY="21.0" text="ຈຳນວນຜູ້ປິ່ນປົວດີທົ່ວໂລກ">
+                           <styleClass>
+                              <String fx:value="font" />
+                              <String fx:value="font-bold" />
+                              <String fx:value="font-size-20" />
+                              <String fx:value="font-color-blue" />
+                           </styleClass>
+                        </Label>
+                        <Text fx:id="totalRecovered" fill="#493df5" layoutX="68.0" layoutY="91.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0000">
+                           <styleClass>
+                              <String fx:value="font" />
+                              <String fx:value="font-bold" />
+                              <String fx:value="font-color-blue" />
+                              <String fx:value="font-size-20" />
+                           </styleClass>
+                        </Text>
+                        <Text fx:id="RecoverperInfective" fill="#493df5" layoutX="34.0" layoutY="131.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0000">
+                           <styleClass>
+                              <String fx:value="font" />
+                              <String fx:value="font-bold" />
+                              <String fx:value="font-color-blue" />
+                              <String fx:value="font-size-16" />
+                           </styleClass>
+                        </Text>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="487.0" layoutY="214.0" prefHeight="159.0" prefWidth="313.0" style="-fx-background-color: #FFF; -fx-background-radius: 5px 5px 5px 5px;">
+                     <effect>
+                        <DropShadow color="#5411c6" height="18.03" offsetX="1.0" offsetY="1.0" radius="8.515" width="18.03" />
+                     </effect>
+                     <children>
+                        <ImageView fitHeight="54.0" fitWidth="55.0" layoutX="7.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@icon/dead_50px.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="69.0" layoutY="18.0" text="ຈຳນວນຜູ້ເສຍຊີວິດທົ່ວໂລກໃນມື້ນີ້">
+                           <styleClass>
+                              <String fx:value="font" />
+                              <String fx:value="font-bold" />
+                              <String fx:value="font-size-20" />
+                              <String fx:value="font-color-blue" />
+                           </styleClass>
+                        </Label>
+                        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="42.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="38.0" prefWidth="22.0" text="+">
+                           <styleClass>
+                              <String fx:value="font-bold" />
+                              <String fx:value="font-color-blue" />
+                              <String fx:value="font-size-24" />
+                           </styleClass>
+                        </Label>
+                        <Text fx:id="todayDeaths" fill="#493df5" layoutX="76.0" layoutY="90.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0000">
+                           <styleClass>
+                              <String fx:value="font" />
+                              <String fx:value="font-bold" />
+                              <String fx:value="font-color-blue" />
+                              <String fx:value="font-size-20" />
+                           </styleClass>
+                        </Text>
+                        <Text fx:id="todayDeaths_PerDay" fill="#493df5" layoutX="42.0" layoutY="130.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0000">
+                           <styleClass>
+                              <String fx:value="font" />
+                              <String fx:value="font-bold" />
+                              <String fx:value="font-color-blue" />
+                              <String fx:value="font-size-16" />
+                           </styleClass>
+                        </Text>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="487.0" layoutY="399.0" prefHeight="159.0" prefWidth="313.0" style="-fx-background-color: #FFF; -fx-background-radius: 5px 5px 5px 5px;">
+                     <effect>
+                        <DropShadow color="#5411c6" height="18.03" offsetX="1.0" offsetY="1.0" radius="8.515" width="18.03" />
+                     </effect>
+                     <children>
+                        <Label layoutX="79.0" layoutY="20.0" text="ຈຳນວນຜູ້ປິ່ນປົວດີທົ່ວໂລກໃນມື້ນີ້">
+                           <styleClass>
+                              <String fx:value="font" />
+                              <String fx:value="font-bold" />
+                              <String fx:value="font-size-20" />
+                              <String fx:value="font-color-blue" />
+                           </styleClass>
+                        </Label>
+                        <ImageView fitHeight="54.0" fitWidth="55.0" layoutX="7.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@icon/heart_64px.png" />
+                           </image>
+                        </ImageView>
+                        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="52.0" layoutY="-6.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="38.0" prefWidth="22.0" text="+" textFill="#1e50f2">
+                           <styleClass>
+                              <String fx:value="font-bold" />
+                              <String fx:value="font-size-24" />
+                           </styleClass>
+                        </Label>
+                        <Text fx:id="todayRecovered" fill="#493df5" layoutX="74.0" layoutY="90.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0000">
+                           <styleClass>
+                              <String fx:value="font" />
+                              <String fx:value="font-bold" />
+                              <String fx:value="font-color-blue" />
+                              <String fx:value="font-size-20" />
+                           </styleClass>
+                        </Text>
+                        <Text fx:id="todayRecovered_PerDay" fill="#493df5" layoutX="40.0" layoutY="130.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0000">
+                           <styleClass>
+                              <String fx:value="font" />
+                              <String fx:value="font-bold" />
+                              <String fx:value="font-color-blue" />
+                              <String fx:value="font-size-16" />
+                           </styleClass>
+                        </Text>
+                     </children>
+                  </AnchorPane>
+                  <Separator layoutX="863.0" layoutY="14.0" orientation="VERTICAL" prefHeight="731.0" prefWidth="0.0" AnchorPane.topAnchor="14.0" />
+                  <AnchorPane layoutX="905.0" layoutY="17.0" prefHeight="543.0" prefWidth="446.0" style="-fx-background-color: #FFF; -fx-background-radius: 5px 5px 5px 5px;" AnchorPane.leftAnchor="905.0">
+                     <effect>
+                        <DropShadow color="#5411c6" height="18.03" offsetX="1.0" offsetY="1.0" radius="8.515" width="18.03" />
+                     </effect>
+                     <children>
+                        <Label layoutX="136.0" layoutY="62.0" text="ຈຳນວນຜູ້ຕິດເຊື້ອໃນປະເທດລາວ">
+                           <styleClass>
+                              <String fx:value="font" />
+                              <String fx:value="font-bold" />
+                              <String fx:value="font-size-20" />
+                              <String fx:value="font-color-blue" />
+                           </styleClass>
+                        </Label>
+                        <ImageView fitHeight="54.0" fitWidth="55.0" layoutX="77.0" layoutY="151.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@icon/hospital_bed_100px.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="143.0" layoutY="164.0" text="ຈຳນວນຜູ້ຕິດເຊື້ອໃຫມ່">
+                           <styleClass>
+                              <String fx:value="font" />
+                              <String fx:value="font-bold" />
+                              <String fx:value="font-size-20" />
+                              <String fx:value="font-color-blue" />
+                           </styleClass>
+                        </Label>
+                        <ImageView fitHeight="54.0" fitWidth="55.0" layoutX="76.0" layoutY="41.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@icon/insomnia_100px.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="54.0" fitWidth="55.0" layoutX="77.0" layoutY="255.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@icon/dead_50px.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="144.0" layoutY="268.0" text="ຈຳນວນຜູ້ເສຍຊີວິດ">
+                           <styleClass>
+                              <String fx:value="font" />
+                              <String fx:value="font-bold" />
+                              <String fx:value="font-size-20" />
+                              <String fx:value="font-color-blue" />
+                           </styleClass>
+                        </Label>
+                        <ImageView fitHeight="54.0" fitWidth="55.0" layoutX="77.0" layoutY="376.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@icon/heart_64px.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="145.0" layoutY="389.0" text="ຈຳນວນຜູ້ປິ່ນປົວດີ">
+                           <styleClass>
+                              <String fx:value="font" />
+                              <String fx:value="font-bold" />
+                              <String fx:value="font-size-20" />
+                              <String fx:value="font-color-blue" />
+                           </styleClass>
+                        </Label>
+                        <Text fx:id="totalCaseInLoas" fill="#493df5" layoutX="143.0" layoutY="123.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0000">
+                           <styleClass>
+                              <String fx:value="font" />
+                              <String fx:value="font-bold" />
+                              <String fx:value="font-color-blue" />
+                              <String fx:value="font-size-20" />
+                           </styleClass>
+                        </Text>
+                        <Text fx:id="newCaseInLaos" fill="#493df5" layoutX="143.0" layoutY="226.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0000">
+                           <styleClass>
+                              <String fx:value="font" />
+                              <String fx:value="font-bold" />
+                              <String fx:value="font-color-blue" />
+                              <String fx:value="font-size-20" />
+                           </styleClass>
+                        </Text>
+                        <Text fx:id="totalDeathsInLaos" fill="#493df5" layoutX="143.0" layoutY="330.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0000">
+                           <styleClass>
+                              <String fx:value="font" />
+                              <String fx:value="font-bold" />
+                              <String fx:value="font-color-blue" />
+                              <String fx:value="font-size-20" />
+                           </styleClass>
+                        </Text>
+                        <Text fx:id="totalRecoveredInLaos" fill="#493df5" layoutX="143.0" layoutY="451.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0000">
+                           <styleClass>
+                              <String fx:value="font" />
+                              <String fx:value="font-bold" />
+                              <String fx:value="font-color-blue" />
+                              <String fx:value="font-size-20" />
+                           </styleClass>
+                        </Text>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="45.0" layoutY="586.0" prefHeight="159.0" prefWidth="313.0" style="-fx-background-color: #FFF; -fx-background-radius: 5px 5px 5px 5px;">
+                     <effect>
+                        <DropShadow color="#5411c6" height="18.03" offsetX="1.0" offsetY="1.0" radius="8.515" width="18.03" />
+                     </effect>
+                     <children>
+                        <ImageView fitHeight="54.0" fitWidth="55.0" layoutX="7.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@icon/insomnia_100px.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="73.0" layoutY="21.0" text="ຈຳນວນທີ່ກຳລັງປິ່ນປົວທົ່ວໂລກ">
+                           <styleClass>
+                              <String fx:value="font" />
+                              <String fx:value="font-bold" />
+                              <String fx:value="font-size-20" />
+                              <String fx:value="font-color-blue" />
+                           </styleClass>
+                        </Label>
+                        <Text fx:id="totalAtive" fill="#493df5" layoutX="68.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0000">
+                           <styleClass>
+                              <String fx:value="font" />
+                              <String fx:value="font-bold" />
+                              <String fx:value="font-color-blue" />
+                              <String fx:value="font-size-20" />
+                           </styleClass>
+                        </Text>
+                        <Text fx:id="AtiveperInfective" fill="#493df5" layoutX="34.0" layoutY="132.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0000">
+                           <styleClass>
+                              <String fx:value="font" />
+                              <String fx:value="font-bold" />
+                              <String fx:value="font-color-blue" />
+                              <String fx:value="font-size-16" />
+                           </styleClass>
+                        </Text>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
+      <Label layoutX="14.0" layoutY="12.0" text="Update Data Of Covid 19">
          <styleClass>
             <String fx:value="font" />
             <String fx:value="font-bold" />
-         </styleClass></Label>
-      <Label fx:id="totalCases" layoutX="68.0" layoutY="128.0" text="0000">
-         <styleClass>
-            <String fx:value="font" />
-            <String fx:value="font-bold" />
+            <String fx:value="font-size-20" />
+            <String fx:value="font-color-blue" />
          </styleClass>
+         <graphic>
+            <ImageView fitHeight="54.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@icon/coronavirus_120px.png" />
+               </image>
+            </ImageView>
+         </graphic>
       </Label>
-      <Label layoutX="369.0" layoutY="82.0" text="Total Case Today">
+      <Separator layoutY="65.0" prefHeight="0.0" prefWidth="1027.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="65.0" />
+      <Label layoutX="335.0" layoutY="31.0" text="ຂໍຂອບໃຈຂໍ້ມູນຈາກ NovelCOVID API (github.com/NovelCOVID/API)">
          <styleClass>
             <String fx:value="font" />
             <String fx:value="font-bold" />
-         </styleClass>
-      </Label>
-      <Label fx:id="todayCases" layoutX="369.0" layoutY="124.0" text="0000">
-         <styleClass>
-            <String fx:value="font" />
-            <String fx:value="font-bold" />
-         </styleClass>
-      </Label>
-      <Label layoutX="68.0" layoutY="189.0" text="Total Deaths">
-         <styleClass>
-            <String fx:value="font" />
-            <String fx:value="font-bold" />
-         </styleClass>
-      </Label>
-      <Label fx:id="totalDeaths" layoutX="68.0" layoutY="231.0" text="0000">
-         <styleClass>
-            <String fx:value="font" />
-            <String fx:value="font-bold" />
-         </styleClass>
-      </Label>
-      <Label layoutX="369.0" layoutY="185.0" text="Total Deaths Today">
-         <styleClass>
-            <String fx:value="font" />
-            <String fx:value="font-bold" />
-         </styleClass>
-      </Label>
-      <Label fx:id="todayDeaths" layoutX="369.0" layoutY="227.0" text="0000">
-         <styleClass>
-            <String fx:value="font" />
-            <String fx:value="font-bold" />
-         </styleClass>
-      </Label>
-      <Label layoutX="68.0" layoutY="301.0" text="Total Recovered">
-         <styleClass>
-            <String fx:value="font" />
-            <String fx:value="font-bold" />
-         </styleClass>
-      </Label>
-      <Label fx:id="totalRecovered" layoutX="68.0" layoutY="343.0" text="0000">
-         <styleClass>
-            <String fx:value="font" />
-            <String fx:value="font-bold" />
-         </styleClass>
-      </Label>
-      <Label layoutX="369.0" layoutY="301.0" text="Total Recovered Today">
-         <styleClass>
-            <String fx:value="font" />
-            <String fx:value="font-bold" />
-         </styleClass>
-      </Label>
-      <Label fx:id="todayRecovered" layoutX="369.0" layoutY="343.0" text="0000">
-         <styleClass>
-            <String fx:value="font" />
-            <String fx:value="font-bold" />
+            <String fx:value="font-size-14" />
+            <String fx:value="font-color-blue" />
          </styleClass>
       </Label>
    </children>
-   <styleClass>
-      <String fx:value="font-color-black" />
-      <String fx:value="font-size-30" />
-   </styleClass>
 </AnchorPane>
