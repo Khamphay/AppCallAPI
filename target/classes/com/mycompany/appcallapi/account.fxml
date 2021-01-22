@@ -6,7 +6,77 @@
 
 <AnchorPane prefHeight="685.0" prefWidth="1027.0" stylesheets="@style/projectStyle.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.appcallapi.Controller.AccountController">
    <children>
-      <Label layoutX="422.0" layoutY="320.0" text="Account Page" />
+      <Label layoutX="68.0" layoutY="86.0" text="Total Case">
+         <styleClass>
+            <String fx:value="font" />
+            <String fx:value="font-bold" />
+         </styleClass></Label>
+      <Label fx:id="totalCases" layoutX="68.0" layoutY="128.0" text="0000">
+         <styleClass>
+            <String fx:value="font" />
+            <String fx:value="font-bold" />
+         </styleClass>
+      </Label>
+      <Label layoutX="369.0" layoutY="82.0" text="Total Case Today">
+         <styleClass>
+            <String fx:value="font" />
+            <String fx:value="font-bold" />
+         </styleClass>
+      </Label>
+      <Label fx:id="todayCases" layoutX="369.0" layoutY="124.0" text="0000">
+         <styleClass>
+            <String fx:value="font" />
+            <String fx:value="font-bold" />
+         </styleClass>
+      </Label>
+      <Label layoutX="68.0" layoutY="189.0" text="Total Deaths">
+         <styleClass>
+            <String fx:value="font" />
+            <String fx:value="font-bold" />
+         </styleClass>
+      </Label>
+      <Label fx:id="totalDeaths" layoutX="68.0" layoutY="231.0" text="0000">
+         <styleClass>
+            <String fx:value="font" />
+            <String fx:value="font-bold" />
+         </styleClass>
+      </Label>
+      <Label layoutX="369.0" layoutY="185.0" text="Total Deaths Today">
+         <styleClass>
+            <String fx:value="font" />
+            <String fx:value="font-bold" />
+         </styleClass>
+      </Label>
+      <Label fx:id="todayDeaths" layoutX="369.0" layoutY="227.0" text="0000">
+         <styleClass>
+            <String fx:value="font" />
+            <String fx:value="font-bold" />
+         </styleClass>
+      </Label>
+      <Label layoutX="68.0" layoutY="301.0" text="Total Recovered">
+         <styleClass>
+            <String fx:value="font" />
+            <String fx:value="font-bold" />
+         </styleClass>
+      </Label>
+      <Label fx:id="totalRecovered" layoutX="68.0" layoutY="343.0" text="0000">
+         <styleClass>
+            <String fx:value="font" />
+            <String fx:value="font-bold" />
+         </styleClass>
+      </Label>
+      <Label layoutX="369.0" layoutY="301.0" text="Total Recovered Today">
+         <styleClass>
+            <String fx:value="font" />
+            <String fx:value="font-bold" />
+         </styleClass>
+      </Label>
+      <Label fx:id="todayRecovered" layoutX="369.0" layoutY="343.0" text="0000">
+         <styleClass>
+            <String fx:value="font" />
+            <String fx:value="font-bold" />
+         </styleClass>
+      </Label>
    </children>
    <styleClass>
       <String fx:value="font-color-black" />

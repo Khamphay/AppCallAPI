@@ -278,11 +278,11 @@
             <DropShadow color="#5411c6" height="18.03" offsetX="1.0" offsetY="1.0" radius="8.515" width="18.03" />
          </effect>
          <children>
-            <Label alignment="CENTER" layoutX="14.0" layoutY="8.0" prefHeight="42.0" prefWidth="324.0" text="Time Line Of Process" textFill="#5355df">
-               <font>
-                  <Font name="BoonBaan Bold" size="30.0" />
-               </font>
-            </Label>
+            <ImageView fitHeight="160.0" fitWidth="182.0" layoutX="71.0" layoutY="62.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@icon/flutter-pie-chart-explode-on-touch.png" />
+               </image>
+            </ImageView>
             <Label alignment="CENTER_RIGHT" layoutX="38.0" layoutY="87.0" prefHeight="33.0" prefWidth="38.0" text="Team" textFill="#5355df">
                <font>
                   <Font name="BoonBaan Bold" size="12.0" />
@@ -293,31 +293,31 @@
                   <Font name="BoonBaan Bold" size="12.0" />
                </font>
             </Label>
-            <Label alignment="CENTER_RIGHT" layoutX="31.0" layoutY="182.0" prefHeight="33.0" prefWidth="50.0" text="Coding" textFill="#5355df">
+            <Label alignment="CENTER_RIGHT" layoutX="16.0" layoutY="180.0" prefHeight="33.0" prefWidth="59.0" text="Coding" textFill="#5355df">
                <font>
                   <Font name="BoonBaan Bold" size="12.0" />
                </font>
             </Label>
-            <Label layoutX="251.0" layoutY="60.0" prefHeight="33.0" prefWidth="72.0" text="Testing" textFill="#5355df">
+            <Label layoutX="244.0" layoutY="60.0" prefHeight="33.0" prefWidth="72.0" text="Testing" textFill="#5355df">
                <font>
                   <Font name="BoonBaan Bold" size="12.0" />
                </font>
             </Label>
-            <Label layoutX="259.0" layoutY="95.0" prefHeight="33.0" prefWidth="72.0" text="Delivery" textFill="#5355df">
+            <Label layoutX="250.0" layoutY="95.0" prefHeight="33.0" prefWidth="72.0" text="Delivery" textFill="#5355df">
                <font>
                   <Font name="BoonBaan Bold" size="12.0" />
                </font>
             </Label>
-            <Label layoutX="259.0" layoutY="165.0" prefHeight="33.0" prefWidth="78.0" text="Maintenance" textFill="#5355df">
+            <Label layoutX="253.0" layoutY="161.0" prefHeight="33.0" prefWidth="78.0" text="Maintenance" textFill="#5355df">
                <font>
                   <Font name="BoonBaan Bold" size="12.0" />
                </font>
             </Label>
-            <ImageView fitHeight="160.0" fitWidth="182.0" layoutX="71.0" layoutY="62.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@icon/flutter-pie-chart-explode-on-touch.png" />
-               </image>
-            </ImageView>
+            <Label alignment="CENTER" layoutX="14.0" layoutY="8.0" prefHeight="42.0" prefWidth="324.0" text="Time Line Of Process" textFill="#5355df">
+               <font>
+                  <Font name="BoonBaan Bold" size="30.0" />
+               </font>
+            </Label>
          </children>
       </AnchorPane>
    </children>

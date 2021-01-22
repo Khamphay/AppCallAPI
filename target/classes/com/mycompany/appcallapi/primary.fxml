@@ -25,6 +25,7 @@
                <styleClass>
                   <String fx:value="font-size-13" />
                   <String fx:value="font-bold" />
+                  <String fx:value="font" />
                </styleClass>
             </TextField>
             <ImageView fitHeight="20.0" fitWidth="24.0" layoutX="790.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="467.0" AnchorPane.topAnchor="15.0">
@@ -32,13 +33,13 @@
                   <Image url="@icon/search_20px.png" />
                </image>
             </ImageView>
-            <JFXButton alignment="CENTER" contentDisplay="CENTER" layoutX="1119.0" layoutY="11.0" prefHeight="31.0" prefWidth="78.0" style="-fx-border-radius: 2em; -fx-border-color: #493DF5; -fx-border-width: 1.3px; -fx-background-radius: 2em;" text="Sig in" textFill="#493df5" AnchorPane.rightAnchor="80.0" AnchorPane.topAnchor="11.0">
+            <JFXButton alignment="CENTER" contentDisplay="CENTER" layoutX="1119.0" layoutY="11.0" prefHeight="31.0" prefWidth="78.0" style="-fx-border-radius: 2em; -fx-border-color: #493DF5; -fx-border-width: 1.3px; -fx-background-radius: 2em;" text="Sign Out" textFill="#493df5" AnchorPane.rightAnchor="80.0" AnchorPane.topAnchor="11.0">
                <styleClass>
                   <String fx:value="font-size-13" />
                   <String fx:value="font-bold" />
                </styleClass>
             </JFXButton>
-            <JFXButton alignment="CENTER" contentDisplay="CENTER" layoutX="1220.0" layoutY="10.0" prefHeight="32.0" prefWidth="30.0" style="-fx-border-radius: 2em; -fx-border-color: #493DF5; -fx-border-width: 1.3px; -fx-background-radius: 2em;" textFill="#493df5" AnchorPane.rightAnchor="17.0" AnchorPane.topAnchor="10.0">
+            <JFXButton alignment="CENTER" contentDisplay="CENTER" layoutX="1220.0" layoutY="10.0" minWidth="-Infinity" prefHeight="32.0" prefWidth="34.0" style="-fx-border-radius: 2em; -fx-border-color: #493DF5; -fx-border-width: 1.3px; -fx-background-radius: 2em;" textFill="#493df5" AnchorPane.rightAnchor="17.0" AnchorPane.topAnchor="10.0">
                <styleClass>
                   <String fx:value="font-size-13" />
                   <String fx:value="font-bold" />

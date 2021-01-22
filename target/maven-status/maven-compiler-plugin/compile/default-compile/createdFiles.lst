@@ -1,4 +1,3 @@
-com\mycompany\appcallapi\App.class
 com\mycompany\appcallapi\SecondaryController.class
-module-info.class
 com\mycompany\appcallapi\PrimaryController.class
+com\mycompany\appcallapi\App.class
