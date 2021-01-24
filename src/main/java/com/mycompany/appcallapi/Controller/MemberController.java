@@ -25,7 +25,11 @@ public class MemberController implements Initializable {
            values=obj.findAllCuontry();
            var series = new XYChart.Series();
             
+<<<<<<< HEAD
            series.setName("ຂໍ້ມູນຂອງບັນດາປະເທດທີ່ມີຜູ້ຕິດເຊື້ອ Covid 19 ທົ່ວໂລກ");
+=======
+           series.setName("The Countries Have People Infective Covid 19 Of The World");
+>>>>>>> 22c144cc6ec5a9d5a03570e3fc0629787ebad7bc
            for (int i = 0; i < values.length(); i++) {
                series.getData().add(new XYChart.Data(((JSONObject) values.get(i)).optString("country")
                        .toString(), Double.parseDouble(((JSONObject) values.get(i)).optString("cases").toString())));
