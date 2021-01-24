@@ -10,6 +10,11 @@ import javafx.stage.StageStyle;
 import javafx.stage.WindowEvent;
 
 import java.io.IOException;
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 22c144cc6ec5a9d5a03570e3fc0629787ebad7bc
 
 /**
  * JavaFX App
@@ -19,7 +24,6 @@ public class App extends Application {
     private Scene scene;
     private Parent root;
     private double x, y;
-
     @Override
     public void start(Stage stage) throws IOException, InterruptedException {
 
@@ -43,4 +47,6 @@ public class App extends Application {
     public static void main(String[] args) {
         launch();
     }
+
+   
 }
