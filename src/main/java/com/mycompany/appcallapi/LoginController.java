@@ -45,6 +45,7 @@ public class LoginController implements Initializable {
         Scene scene = new Scene(root);
         stagehome = new Stage();
         stagehome.setScene(scene);
+        stagehome.setTitle("Pursued Information Of Covid-19");
         stagehome.show();
 
         //Todo: Set event windown clase
@@ -72,43 +73,19 @@ public class LoginController implements Initializable {
         @Override
         public void run() {
             try {
-<<<<<<< HEAD
                 var client = HttpClient.newBuilder().build();
                 var request = HttpRequest.newBuilder().GET()
                         .uri(URI.create(Covid19_API_Connector.getCallAPI("/all"))).build();
                 var response = client.send(request, HttpResponse.BodyHandlers.ofString());
 
                 if (response.statusCode() == 200) {
-                    PrimaryController.networkStats = "ການເຊື່ອມ NovelCOVID API ຕໍ່ສຳເລັດແລ້ວ";
-                    System.out.println("Connect succesfully" + response.statusCode());
+                    PrimaryController.networkStats = "ການເຊື່ອມຕໍ່ NovelCOVID API ສຳເລັດແລ້ວ";
                     // sniperCheck.setVisible(false);
                 } else {
                     PrimaryController.networkStats = "ບໍ່ສາມາດເຊື່ອມຕໍ່ NovelCOVID API (ກະລຸນາກວດສອບເຊື່ອມຕໍ່ Network)";
-                    System.out.println("Connect Fail" + response.statusCode());
                 }
             } catch (Exception e) {
                 PrimaryController.networkStats = "ບໍ່ສາມາດເຊື່ອມຕໍ່ NovelCOVID API (ກະລຸນາກວດສອບເຊື່ອມຕໍ່ Network)";
-                System.err.println("Connection error: " + e.getMessage() + " (Please chacek internet connection.)");
-=======
-                Thread.sleep(3000);
-                try {
-                    var client = HttpClient.newBuilder().build();
-                    var request = HttpRequest.newBuilder().GET()
-                            .uri(URI.create(Covid19_API_Connector.getCallAPI("/all"))).build();
-                    var response = client.send(request, HttpResponse.BodyHandlers.ofString());
-
-                    if (response.statusCode() == 200) {
-                        System.out.println("Connect succesfully " + response.statusCode());
-                       // sniperCheck.setVisible(false);
-                    } else {
-                        System.out.println("Connect Fail" + response.statusCode());
-                    }
-                } catch (Exception e) {
-                    System.err.println("Connection error: " + e.getMessage() + " (Please chacek internet connection.)");
-                }
-            } catch (InterruptedException e) {
-                System.err.println("Thread error: " + e.getMessage());
->>>>>>> 22c144cc6ec5a9d5a03570e3fc0629787ebad7bc
             }
         }
     }

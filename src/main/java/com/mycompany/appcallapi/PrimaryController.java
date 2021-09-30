@@ -25,9 +25,10 @@ public class PrimaryController implements Initializable {
     private Thread t2 = new Thread(new checkConnection(), "t2");
     public static String networkStats = "";
     private boolean fragMenu = false;
+    private Node node;
     private Parent rootMenu = null;
     private HamburgerSlideCloseTransition hamberger_transition = null;
-    private Node node;
+    
 
     @FXML
     private Text tvStatus;
@@ -165,6 +166,7 @@ public class PrimaryController implements Initializable {
             FXMLLoader loader = new FXMLLoader(App.class.getResource(fxmlFrom));
             return loader.load();
         } catch (Exception e) {
+            e.printStackTrace();
             System.out.println("=====>" + e.getMessage());
             return null;
         }

@@ -36,7 +36,8 @@ public class GetAllCases {
                     object.get("deaths").toString(),
                     object.get("todayDeaths").toString(), 
                     object.get("recovered").toString(), 
-                    object.get("todayRecovered").toString());
+                    object.get("todayRecovered").toString(), 
+                    object.get("active").toString());
             caseInlaos.add(itemInLoas);
         }
 

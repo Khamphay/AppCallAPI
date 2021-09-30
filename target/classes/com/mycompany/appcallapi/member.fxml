@@ -12,11 +12,7 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<<<<<<< HEAD
 <AnchorPane prefHeight="685.0" prefWidth="1359.0" stylesheets="@style/projectStyle.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.appcallapi.Controller.MemberController">
-=======
-<AnchorPane prefHeight="685.0" prefWidth="1027.0" stylesheets="@style/projectStyle.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.appcallapi.Controller.MemberController">
->>>>>>> 22c144cc6ec5a9d5a03570e3fc0629787ebad7bc
    <styleClass>
       <String fx:value="font-color-black" />
       <String fx:value="font-size-12" />
@@ -29,7 +25,7 @@
          <children>
             <ScrollPane fitToHeight="true" layoutX="5.0" layoutY="26.0" prefHeight="583.0" prefWidth="993.0" AnchorPane.bottomAnchor="4.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="26.0">
                <content>
-                  <LineChart fx:id="chart" alternativeColumnFillVisible="true" prefHeight="519.0" prefWidth="1632.0" styleClass="font" title="Time Line Covid 19">
+                  <LineChart fx:id="chart" alternativeColumnFillVisible="true" focusTraversable="true" prefHeight="535.0" prefWidth="1825.0" style="-fx-background-color: transparent; -fx-border-width: 0px; -fx-border-color: transparent;" styleClass="font" title="Time Line Covid 19">
                     <xAxis>
                       <CategoryAxis side="BOTTOM" />
                     </xAxis>
@@ -56,7 +52,6 @@
             </ImageView>
          </graphic>
       </Label>
-<<<<<<< HEAD
       <Separator layoutY="67.0" prefHeight="0.0" prefWidth="1027.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
       <Label layoutX="343.0" layoutY="32.0" text="ຂໍຂອບໃຈຂໍ້ມູນຈາກ NovelCOVID API (github.com/NovelCOVID/API)">
          <styleClass>
@@ -66,8 +61,5 @@
             <String fx:value="font-color-blue" />
          </styleClass>
       </Label>
-=======
-      <Separator layoutY="67.0" prefHeight="0.0" prefWidth="1027.0" />
->>>>>>> 22c144cc6ec5a9d5a03570e3fc0629787ebad7bc
    </children>
 </AnchorPane>

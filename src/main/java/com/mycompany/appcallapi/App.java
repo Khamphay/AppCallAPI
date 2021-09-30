@@ -1,20 +1,13 @@
 package com.mycompany.appcallapi;
 
 import javafx.application.Application;
-import javafx.event.EventHandler;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
-import javafx.stage.WindowEvent;
 
 import java.io.IOException;
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 22c144cc6ec5a9d5a03570e3fc0629787ebad7bc
 
 /**
  * JavaFX App

@@ -14,7 +14,7 @@ public class CaseOfCovid19 {
     }
 
     public CaseOfCovid19(String updated, String country,String cases, String todayCases, String deaths, String todayDeaths,
-            String recovered, String todayRecovered) {
+            String recovered, String todayRecovered, String active) {
         this.updated = updated;
         this.country = country;
         this.cases = cases;
@@ -23,6 +23,7 @@ public class CaseOfCovid19 {
         this.todayDeaths = todayDeaths;
         this.recovered = recovered;
         this.todayRecovered = todayRecovered;
+        this.active = active;
     }
 
     public CaseOfCovid19(String updated, String cases, String todayCases, String deaths, String todayDeaths,
